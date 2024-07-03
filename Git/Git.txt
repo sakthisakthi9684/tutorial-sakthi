@@ -1,0 +1,54 @@
+Git Commants
+===========
+1.	git clone <repo path>
+2.	git add .
+3.	git commit -m "commit message>
+4.	git push origin <branch name>
+5.	git pull origin <branch name>
+6.	git branch
+7.	git branch <new branch name>
+8.	git checkout <branch name>
+9.	git checkout -b <branch name>
+10.	git status
+
+
+
+⦁	git clone <repo path>
+		=> it's use for cloneing git repoitary to my pc.
+		=> ways
+		      * select pefert my computer path -> right cilck on mouse->open git bash ->type ( git clone <repo path> )
+
+
+⦁	git add .
+
+
+
+⦁	git commit -m "commit message>
+
+
+
+⦁	git push origin <branch name>
+
+
+
+⦁	git pull origin <branch name>
+
+
+
+⦁	git branch
+
+
+
+⦁	git branch <new branch name>
+
+
+
+⦁	git checkout <branch name>
+
+
+
+⦁	git checkout -b <branch name>
+
+
+
+⦁	git status
