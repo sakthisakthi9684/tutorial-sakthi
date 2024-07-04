@@ -13,42 +13,31 @@ Git Commants
 
 
 
-⦁	git clone <repo path>
-		=> it's use for cloneing git repoitary to my pc.
-		=> ways
-		      * select pefert my computer path -> right cilck on mouse->open git bash ->type ( git clone <repo path> )
+⦁   git clone <repo path>
+	=> it's use for cloneing git repoitary to my pc.
+	=> way
+	      * select pefert my computer path -> right cilck on mouse->open git bash ->type ( git clone <repo path> )
 
+⦁   git add  .
+	         =>this for adding for git repo point then replace componet name.you metion componet only add for you repo.
+	         =>point is metion for all componet replace for any componet name  or file name etc,..
+	         => way
+		*select computer path ->open git bash ->type( git add .  ||  git add <File name or Folder name>
 
-⦁	git add .
+⦁   git commit -m "commit message>
 
+	        =>this command is use for push time some msg in your repo esay undersanding purpose. 
+	        => every time push your code before you are type this command is  mantaory.
 
+⦁   git push origin <branch name>
+	       
+                       => git add and git commit type pana pera push code type pananum intha code diract ha repo push panirum
+	       => but add and commit command before this command is mantaoryay
+	       => before pushing your are check correct branch this for very important 
 
-⦁	git commit -m "commit message>
-
-
-
-⦁	git push origin <branch name>
-
-
-
-⦁	git pull origin <branch name>
-
-
-
-⦁	git branch
-
-
-
-⦁	git branch <new branch name>
-
-
-
-⦁	git checkout <branch name>
-
-
-
-⦁	git checkout -b <branch name>
-
-
-
-⦁	git status
+⦁   git pull origin <branch name>
+⦁   git branch
+⦁   git branch <new branch name>
+⦁   git checkout <branch name>
+⦁   git checkout -b <branch name>
+⦁   git status
