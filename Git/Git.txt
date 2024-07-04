@@ -10,6 +10,21 @@ Git Commants
 8.	git checkout <branch name>
 9.	git checkout -b <branch name>
 10.	git status
+11.	git remote -v
+12.	git fetch origin
+13.	git merge origin/main
+14.	git reset --hard origin/main
+15.	git stash
+16.	git stash list
+17.	git stash apply
+18.	git stash pop
+19.	git stash clear
+20.	git stash push -m "My custom message"
+
+
+
+
+
 
 
 
