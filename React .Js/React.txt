@@ -1,0 +1,116 @@
+REACT.JS
+=========
+
+
+vite
+-----
+	=>no chagr for for codeing area only one thing for  create commands is differnt and ater all thing is same
+	=> npm start command this vite is  use for (" npm run dev  ")
+	=>use
+	       *deployement is faster then normaal react project
+	=>how to create
+	       * open terminal->type("npm create vite@latest")  ->enter the project name -> ' select javascript ' -> set path in your project folder ->  type (" npm install ") -> after  run the project (" npm run dev ")
+	       * finally click the localhost link your project is runing
+
+
+
+
+
+React Life Cycle Hooks
+-------------------------------
+* react hooks only use for functional componet
+*react hooks don't work in class component 
+=>in this hooks use for state maintance
+
+	1.useState			-	state Hooks
+	2.useReducer		-	state Hooks
+	3.useEffect		-	Effect Hooks 
+	4.useContext		-	Context Hooks
+	5.useRef			-	Ref Hooks 
+`	6.useMemo		-	Performance Hooks 
+	7.useCallback  		-	Performance Hooks 
+	8.useImperativeHandle	-	Ref Hooks
+	9.useLayoutEffect		-		Effect Hooks  
+	10.useInsertionEffect	-		Effect Hooks
+	11.useTransition		-		Performance Hooks 
+	12.useDeferredValue	 -		Performance Hooks 
+	13.useDebugValue 		-	Other Hooks
+	14.useId  			-	Other Hooks
+	15.useSyncExternalStore	-	Other Hooks 
+	16.useActionState 		-	Other Hooks
+	*.Custom Hooks
+
+
+1.useState
+-------------
+	=>useState declares a state variable that you can update directly.
+	=>ex:	const [index, setIndex] = useState(0);
+ 
+2.useReducer
+-----------------
+	=>useReducer declares a state variable with the update logic inside a reducer function.
+	=>The useReducer hook is a powerful alternative to useState for managing state in React components, especially when the state logic is complex or involves multiple sub-values. Here is a simple example to illustrate how useReducer can be used.
+
+3.useEffect
+---------------
+	=>useRef declares a ref. You can hold any value in it, but most often it’s used to hold a DOM node.
+	=>ex:	useEffect(() => {
+ 		const connection = createConnection(roomId);
+  	  	connection.connect();
+   	 	return () => connection.disconnect();
+  		}, [roomId]);
+
+4.useContext
+----------------
+	=>useContext reads and subscribes to a context.
+	=>ex:	const theme = useContext(ThemeContext);
+
+5.useRef
+-------------
+	=>useRef declares a ref. You can hold any value in it, but most often it’s used to hold a DOM node.
+	=>ex: const inputRef = useRef(null);
+
+6.useMemo
+---------------
+	=>useMemo lets you cache the result of an expensive calculation.
+
+7.useCallback
+------------------ 
+	=>useCallback lets you cache a function definition before passing it down to an optimized component.
+
+8.useId  
+---------
+	=>
+
+9.useImperativeHandle 
+------------------------------
+	=>useImperativeHandle lets you customize the ref exposed by your component. This is rarely used.
+
+10.useLayoutEffect
+--------------------------
+	=>useLayoutEffect fires before the browser repaints the screen. You can measure layout here.
+
+
+11.useTransition
+--------------------
+	=>useTransition lets you mark a state transition as non-blocking and allow other updates to interrupt it.
+
+12.useDeferredValue
+--------------------------
+	=>useDeferredValue lets you defer updating a non-critical part of the UI and let other parts update first.
+
+13.useDebugValue 
+------------------------
+	=>useDebugValue lets you customize the label React DevTools displays for your custom Hook.
+
+14.useInsertionEffect
+--------------------------
+	=>useInsertionEffect fires before React makes changes to the DOM. Libraries can insert dynamic CSS here.
+
+15.useSyncExternalStore
+------------------------------- 
+	=>useSyncExternalStore lets a component subscribe to an external store
+
+16.useActionState 
+----------------------
+	=>useActionState allows you to manage state of actions.

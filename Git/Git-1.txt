@@ -1,0 +1,51 @@
+( GIT in Tamil #1 | What is GIT | GIT Explained with Examples|Git Tutorial Tamil  :: SELVA-Tech&ITOps)
+
+
+1.introduction of version control system
+-----------------------------------------------
+	=>A Version Control System (VCS) is a Repository of files , every changes made to the files are tracked with revisions , along with who made the change , why they made it and references to problems fixed or enhancements introduced by the change
+
+	=>It help the team to ship the products  faster , improves visibility , traceability for every change ever made , helps teams collaborate around the world.
+
+ 
+
+2.Types of version Control System
+-----------------------------------------
+	I )     Local Version Control System
+	II )   Centralized Version Control System
+	III )  Distributed Version Control System
+
+3.List of  VCS Tools
+-------------------------
+	I )    Git	
+	II )   SVN
+	III )  ClearCase
+	IV )  Mercurial
+	V )   TFS
+	VI )  Helix Core ( Perforce )
+
+4.what is git ?
+---------------
+	=>Git is a opensource tool and distributed version control system . In fact , Git verion control is one of the most popular version control system
+
+	=> It is the most widely used modern version control system in the worls today
+
+	=>It is originally developed in 2005 by Linus Torvalds , the famous creator of the Linux operating system Kernel 
+
+5. Git Features
+-----------------
+	i    .   Works on a distributed system
+	ii   .   Compatible with all operating system (yailla OS install pannalam ex.windows,Linus,Mac)
+	iii  .    Allows for non-liner development (world yanga irunthalum git use pannalm)
+	iv  .    Branching
+	v   .    Fast as a flash ( very fast for git reasion : this is created by C Language )
+	vi  .    Reliable 
+
+6. Git Work Flow
+---------------------
+	=>see IMG on Git Folter
+
+7. Git Installation
+---------------------
+	=>Open Google -> type (download git) -> goto ( https://www.git scm.com ) -> Click Your OS ( Window , macOS ,Linus/Unis) -> auto maticlly download for start
+	=>Download git softwort next step is Normal

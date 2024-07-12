@@ -1,0 +1,23 @@
+Tutor Joe's Stanley ( youtube channel)
+
+Node.JS
+=======
+
+1.What is Node.JS?
+	=>Node.js is a runtime environment for executing JavaScript outside of a web browser
+	=> Node.js also provider a set of  Built-in-modules for working with the file System,networking,cryptography,and other system resources.These modules can be ued to build a wide range of applications,from web servers and APIs to command-line tools and desktop applications
+	=>It is built on top of the chrome V8 javaScript engine,Which is also used i the Chrome Brower. The V8 engine compiles javaScript code to native machine code for fast execution.Which was developed by GOOGLE.
+	=>Libuv is a cross-palatform library that provides an event loop.asynchronous I/O operations,and Other low-level utilities for building network and file system applications.It was originally developed as part of the Node.js project and is now used by many other projects,including the Rust Programming language and the Chromium browser.
+
+		* node.js  is 50% js code and 50% c++ code (node.js Libuv library use pannuthu  Libuv is 100% C++ code  so intha library comunicate pannathan 50% code C++ write panndrom)
+
+
+2.History Of Node.Js
+	=>Node.js was created by  Ryan Dahi in 2009.
+	=>Ryan initially created Node.js as aside project while working at Joyent,a cloud computing company.
+	=>The fiet version of Node.js was released in 2009,and it quickly gained popularity among developers due to its fast and efficient performance.
+	=>in 2010,the Node Package Manager(npm) was introduced,which made it easy for developer to share and reuse code.
+	=>in 2011,Node.js was adopted by major companies like Microsoft,IBM,and Netflix,which helped to further increase its popularity
+
+3.Features of Node JS
+	=>Asy
