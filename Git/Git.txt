@@ -7,7 +7,7 @@ Git Commants
 5.	git pull origin <branch name>
 6.	git branch
 7.	git branch <new branch name>
-8.	git checkout <branch name>
+8.	git checkout <branch name> || git switch <branch vame>
 9.	git checkout -b <branch name>
 10.	git status
 
@@ -42,9 +42,9 @@ Git Commants
 
 ⦁   git branch
 	=>this is used for visit git all  branches
-⦁   git branch <new branch name>
+⦁   git branch <new branch name> 
 	=>create for new branch
-⦁   git checkout <branch name>
+⦁   git checkout <branch name> or git switch <branch vame>
 	=> it's ued for change for git branch
 	=>switched for branch
 ⦁   git checkout -b <new branch name>
