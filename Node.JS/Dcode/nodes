@@ -1,1 +1,46 @@
 https://youtu.be/TcvOgwQPsSo?si=nZeSeFz1lT_xQ0NB
+
+
+New Project Setup
+
+step 1  :
+    install  package-log  ->     npm init -y
+    install express  ->  npm install express
+    install nodemon  ->  npm install --save-dev nodemon
+    install .env   ->  npm install dotenv
+    install mongoose  ->  npm install mongoose
+    install cors  ->  npm install cors
+
+
+
+
+
+step 2 :
+
+    create  index.js on project file  inside
+
+
+
+
+
+
+    notes :
+
+            keep file structure
+                project-name/
+                    ├── node_modules/
+                    ├── public/         # Static files (images, CSS, etc.)
+                    ├── public/   
+                    ├──  src/ 
+                    ├── package.json            # Environment variables
+                    ├── .env
+                    └── .gitignore
+
+step 3  :
+
+    add script  in package.json("package.json is automatically created for install  follwing  step 1") so  add this  2 script
+
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    }
